@@ -7,5 +7,7 @@ services:
     ports:
       - 9080:8080
       - 29418:29418
+    environment:
+      TZ: Asia/Tokyo
     volumes:
       - ./gitbucket/volume:/gitbucket
